@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #i1{
+            position: relative;
+            left: 400px;
+            top:100px;
+        }
+        img{
+            height: 150px;
+            width:150px;
+        }
+    </style>
+</head>
+<body>
+<div id="i1">
+<h3>微信页面</h3>
+<!--{{req_code}}-->
+<img id='img' src="https://login.weixin.qq.com/qrcode/{{req_code}}" alt="">
+    </div>
+
+<script src="/static/jquery-1.12.4.js"></script>
+<script>
+
+    $(function(){
+　   init()
+});
+    　  init =  function () {
+        $.ajax({
+            url:'/pend',
+            dataType:'JSON',
+
+            success:function (arg) {
+                if (arg.code === 201){
+                    $("#img").attr('src',arg.src);
+                    init()
+                }
+                else if (arg.code == 200 ){
+                    console.log('跳转')
+                    location.href='/index'
+                }
+                else {
+                    init()
+                }
+
+            }
+        })
+    }
+
+
+
+</script>
+</body>
+</html>

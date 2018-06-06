@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <style>
+        img{
+            width:30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h3>联系人列表</h3>
+    <ul>
+        {% for user in user_lists.MemberList%}
+        <li><img src="/get_img?{{user.HeadImgUrl|get_avata()}}" alt="">{{ user.UserName}} {{user.NickName}}  &nbsp;&nbsp;{{user.RemarkName}} &nbsp;&nbsp;<a href="/send_message?to_username={{ user.UserName}}">发送消息</a></li>
+
+        {% endfor %}
+    </ul>
+</body>
+</html>

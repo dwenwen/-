@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <style>
+        img{
+            width:30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>欢迎登录：<img src="/get_img?{{user_dict.User.HeadImgUrl|get_avata()}}" alt="">{{user_dict.User.NickName}}</h1>
+    <h3>最近联系人</h3>
+    <ul>
+        {% for user in user_list%}
+        <li><img src="/get_img?{{user.HeadImgUrl|get_avata()}}" alt="">{{ user.UserName}} {{user.NickName}}</li>
+
+        {% endfor %}
+    </ul>
+</body>
+</html>
