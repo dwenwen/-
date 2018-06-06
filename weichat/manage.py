@@ -89,6 +89,7 @@ def index():
     user_dict = init_ret.json()     #将post请求的返回值.json相当于是执行了json.loads(init_ret)
     session['current_user']=user_dict['User']
     # print(user_dict['ContactList'])
+    print(user_dict)
     return render_template('index.html', user_dict=user_dict)
 
 #获取最近联系人头像地址的过滤器

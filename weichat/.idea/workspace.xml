@@ -12,20 +12,20 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/weichat$text.coverage" NAME="text Coverage Results" MODIFIED="1528187350704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/weichat$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1525794951240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/视频/day133/day133课上所有/s8wechat" />
-    <SUITE FILE_PATH="coverage/weichat$manage.coverage" NAME="manage Coverage Results" MODIFIED="1528195271579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/weichat$manage.coverage" NAME="manage Coverage Results" MODIFIED="1528247022440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-297">
-              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="240">
+              <caret line="92" column="50" lean-forward="false" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
               <folding>
                 <element signature="e#0#63#0" expanded="true" />
                 <element signature="e#270#455#0" expanded="false" />
                 <element signature="e#1467#1586#0" expanded="false" />
-                <element signature="e#3679#4028#0" expanded="false" />
+                <element signature="e#3700#4049#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -57,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="54">
+              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -150,11 +150,11 @@
       <list>
         <option value="$PROJECT_DIR$/views.py" />
         <option value="$PROJECT_DIR$/templates/login.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/text.py" />
         <option value="$PROJECT_DIR$/templates/user_list.html" />
         <option value="$PROJECT_DIR$/templates/send.html" />
         <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
@@ -165,8 +165,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="111" />
-    <option name="y" value="16" />
+    <option name="x" value="95" />
+    <option name="y" value="4" />
     <option name="width" value="1262" />
     <option name="height" value="734" />
   </component>
@@ -230,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.text">
+  <component name="RunManager" selected="Python.manage">
     <configuration name="manage (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,11 +318,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="111" y="16" width="1262" height="734" extended-state="0" />
+    <frame x="95" y="4" width="1262" height="734" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39965397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6557093" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -363,7 +364,7 @@
             <element signature="e#0#63#0" expanded="true" />
             <element signature="e#270#455#0" expanded="false" />
             <element signature="e#1467#1586#0" expanded="false" />
-            <element signature="e#3679#4028#0" expanded="false" />
+            <element signature="e#3700#4049#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -428,7 +429,7 @@
             <element signature="e#0#63#0" expanded="true" />
             <element signature="e#270#455#0" expanded="false" />
             <element signature="e#1467#1586#0" expanded="false" />
-            <element signature="e#3679#4028#0" expanded="false" />
+            <element signature="e#3700#4049#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -493,7 +494,7 @@
             <element signature="e#0#63#0" expanded="true" />
             <element signature="e#270#455#0" expanded="false" />
             <element signature="e#1467#1586#0" expanded="false" />
-            <element signature="e#3679#4028#0" expanded="false" />
+            <element signature="e#3700#4049#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -558,7 +559,7 @@
             <element signature="e#0#63#0" expanded="true" />
             <element signature="e#270#455#0" expanded="false" />
             <element signature="e#1467#1586#0" expanded="false" />
-            <element signature="e#3679#4028#0" expanded="false" />
+            <element signature="e#3700#4049#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -624,7 +625,7 @@
             <element signature="e#0#63#0" expanded="true" />
             <element signature="e#270#455#0" expanded="false" />
             <element signature="e#1467#1586#0" expanded="false" />
-            <element signature="e#3679#4028#0" expanded="false" />
+            <element signature="e#3700#4049#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -690,7 +691,7 @@
             <element signature="e#0#63#0" expanded="true" />
             <element signature="e#270#455#0" expanded="false" />
             <element signature="e#1467#1586#0" expanded="false" />
-            <element signature="e#3679#4028#0" expanded="false" />
+            <element signature="e#3700#4049#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -769,7 +770,7 @@
             <element signature="e#0#63#0" expanded="true" />
             <element signature="e#270#455#0" expanded="false" />
             <element signature="e#1467#1586#0" expanded="false" />
-            <element signature="e#3679#4028#0" expanded="false" />
+            <element signature="e#3700#4049#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -846,6 +847,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="452" column="8" lean-forward="false" selection-start-line="452" selection-start-column="8" selection-end-line="452" selection-end-column="8" />
+          <folding>
+            <element signature="e#18624#19226#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -900,14 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/we微信/we微信/webchat/views/account.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="999">
@@ -945,14 +941,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        <state relative-caret-position="240">
+          <caret line="92" column="50" lean-forward="false" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
           <folding>
             <element signature="e#0#63#0" expanded="true" />
             <element signature="e#270#455#0" expanded="false" />
             <element signature="e#1467#1586#0" expanded="false" />
-            <element signature="e#3679#4028#0" expanded="false" />
+            <element signature="e#3700#4049#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
